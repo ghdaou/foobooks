@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateBooksTable extends Migration
 {
+    
     /**
      * Run the migrations.
      *
@@ -31,7 +32,6 @@ class CreateBooksTable extends Migration
             $table->string('purchase_link');
 
             # FYI: We're skipping the 'tags' field for now; more on that later.
-
         });
     }
 
